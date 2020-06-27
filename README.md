@@ -34,10 +34,10 @@ Input:
 - **dst_path** : the path to the destination folder where the output will be saved
 - **dataset** : the name of the dataset
 - **fs_dataset** : the dictionary having the (key, value) as (dataset::String, signal_frequency::AbstractFloat)
-- **normalized** {true, false}: whether to conduct the normalization step. Optional, default: true
-- **BPFed** {true, false} : whether to conduct the Band-pass filtering step. Default: true
-- **togsr** {true, false} : whether to conduct the Global Signal Processing step. Default: true
-- **fpass** : the array of two cut-off frequencies in Hz of the Band-pass filter . Default [0.009, 0.08]  
+- **normalized** {true, false}: whether to conduct the normalization step. Optional, default=true
+- **BPFed** {true, false} : whether to conduct the Band-pass filtering step. Optional, default=true
+- **togsr** {true, false} : whether to conduct the Global Signal Processing step. Optional, default=true
+- **fpass** : the array of two cut-off frequencies in Hz of the Band-pass filter . Optional, default=[0.009, 0.08]  
 
 Output:
 - Preprocessed file (*.txt*) saved in the folder specified by *src_path* that has the file name specified by *filename*
