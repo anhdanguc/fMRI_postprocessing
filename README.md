@@ -1,7 +1,7 @@
 # Postprocessing fMRI timeseries
 
 This package implements the postprocessing of fMRI timeseries that consists of the following steps:
-- Normalization
+- Normalization using **Z-score**
 - Band-pass filtering
 - Global signal processing
 
@@ -40,3 +40,4 @@ Input:
 
 Output:
 - Postprocessed file saved in the folder specified by *src_path* that has the file name specified by *filename*
+
