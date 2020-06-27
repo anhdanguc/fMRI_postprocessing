@@ -29,7 +29,7 @@ julia> preprocessDataset( filename,
 ```
 
 Input:
-- **filename** : the file name (*.txt*) of the fMRI scan to be processed
+- **filename** : the file name (*.nii*) of the fMRI scan to be processed
 - **src_path** : the path to the source folder containing the fMRI file
 - **dst_path** : the path to the destination folder where the output will be saved
 - **dataset** : the name of the dataset
@@ -40,5 +40,5 @@ Input:
 - **fpass** : the array of two cut-off frequencies in Hz of the Band-pass filter . Optional, default=[0.009, 0.08]  
 
 Output:
-- Preprocessed file (*.txt*) saved in the folder specified by *src_path* that has the file name specified by *filename*
+- Preprocessed file (*.nii*) saved in the folder specified by *src_path* that has the file name specified by *filename*
 
