@@ -40,5 +40,5 @@ Input:
 - **fpass** : the array of two cut-off frequencies in Hz of the Band-pass filter . Default [0.009, 0.08]  
 
 Output:
-- Postprocessed file (*.txt*) saved in the folder specified by *src_path* that has the file name specified by *filename*
+- Preprocessed file (*.txt*) saved in the folder specified by *src_path* that has the file name specified by *filename*
 
